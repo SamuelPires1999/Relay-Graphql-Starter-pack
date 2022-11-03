@@ -1,0 +1,8 @@
+{
+  "name": "relay-graphql-starter",
+  "version": "1.0.0",
+  "description": "A starter template for Relay compliant GraphQL api's",
+  "main": "index.js",
+  "author": "Samuel Pires",
+  "license": "MIT"
+}
