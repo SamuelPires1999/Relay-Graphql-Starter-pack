@@ -4,5 +4,38 @@
   "description": "A starter template for Relay compliant GraphQL api's",
   "main": "index.js",
   "author": "Samuel Pires",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "kcors": "^2.2.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-graphql": "^0.12.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-node-externals": "^3.0.0",
+    "dotenv-safe": "^8.2.0",
+    "graphql": "^16.6.0",
+    "graphql-playground-middleware-koa": "^1.6.22",
+    "graphql-relay": "^0.10.0",
+    "graphql-tag": "^2.12.6",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/kcors": "^2.2.6",
+    "@types/koa-bodyparser": "^4.3.8",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4"
+  }
+
 }
