@@ -1,1 +1,5 @@
-console.log("hello sammy...")
+
+import 'isomorphic-fetch'
+import { setupServer } from './server'
+
+setupServer()
