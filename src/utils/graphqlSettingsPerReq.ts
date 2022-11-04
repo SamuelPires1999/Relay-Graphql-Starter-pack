@@ -7,9 +7,8 @@ import { getContext } from './getContext';
 export const graphqlSettingsPerReq = async (
   req: Request,
   ctx: any,
-  koaContext: Context,
+  koaContext: Context
 ) => {
-
   return {
     graphiql: process.env.NODE_ENV !== 'production',
     schema,
