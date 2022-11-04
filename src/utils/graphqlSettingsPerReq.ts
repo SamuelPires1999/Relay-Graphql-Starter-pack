@@ -17,7 +17,7 @@ export const graphqlSettingsPerReq = async (
       req,
       koaContext,
     }),
-    formatError: (error: GraphQLError) => {
+    customFormatErrorFn: (error: GraphQLError) => {
       // eslint-disable-next-line
       console.log(error.message);
       // eslint-disable-next-line
