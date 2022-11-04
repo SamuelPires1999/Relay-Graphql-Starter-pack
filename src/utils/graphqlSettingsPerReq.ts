@@ -7,9 +7,8 @@ import { getContext } from './getContext';
 export const graphqlSettingsPerReq = async (
   req: Request,
   ctx: any,
-  koaContext: Context,
+  koaContext: Context
 ) => {
-
   return {
     graphiql: process.env.NODE_ENV !== 'production',
     schema,
@@ -17,7 +16,7 @@ export const graphqlSettingsPerReq = async (
       req,
       koaContext,
     }),
-    formatError: (error: GraphQLError) => {
+    customFormatErrorFn: (error: GraphQLError) => {
       // eslint-disable-next-line
       console.log(error.message);
       // eslint-disable-next-line
